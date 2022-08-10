@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vertical Responsive Menu - Demonstration</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet'>
+  <link href='src/vendor/normalize.css/normalize.css' rel='stylesheet'>
+  <link href='src/vendor/fontawesome/css/font-awesome.min.css' rel='stylesheet'>
+  <link href="dist/vertical-responsive-menu.min.css" rel="stylesheet">
+  <link href="css/demo.css" rel="stylesheet">
+  <link href="css/style.css/" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header clearfix">
+        <nav class="navbar">
+                <a href="index.html" class="logo"><img src="img/logo.png" alt="crm"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li class=""><a href="index.html">Accueil</a></li>
+                        <li class=""><a href="poste.html">Nos postes</a></li>
+                        <li class=""><a href="profil.html">Nos profils</a></li>
+                        <li class="active"><a href="embauche.html">Nos embauches</a></li>
+                        <li class=""><a href="#contact">Contacts</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars fa-lg menu-hamburger" alt="menu-hamburger"></i>
+            </nav>
+    <button type="button" id="toggleMenu" class="toggle_menu">
+      <i class="fa fa-bars place"></i>
+    </button>
+  </header>
+
+  <nav class="vertical_nav">
+
+    <ul id="js-menu" class="menu">
+            <li class="menu--item">
+                    <a href="#" class="menu--link" title="Item 2">
+                      <i class="menu--icon  fa fa-fw fa"></i>
+                      <span class="menu--label">Admnistration</span>
+                    </a>
+                  </li>
+<div>
+        <li class="menu--item  menu--item__has_sub_menu">
+  
+          <label class="menu--link" title="Item 1">
+            <i class="menu--icon  fa fa-fw fa"></i>
+            <span class="menu--label">Logistique</span>
+          </label>
+  
+          <ul class="sub_menu">
+            <li class="sub_menu--item">
+              <a href="#"  class="sub_menu--link sub_menu--link__active">Gestion de stock</a>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Chauffeurs ou Livreurs</a>
+            </li>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable Achats</a>
+            </li>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable importation</a>
+            </li>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Contrôleurs</a>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Production</a>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Contrôle qualité</a>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Transformation</a>
+            </li>
+          </ul>
+          </li>
+  </div>
+<div>
+        <li class="menu--item  menu--item__has_sub_menu">
+  
+          <label class="menu--link" title="Item 1">
+            <i class="menu--icon  fa fa-fw fa"></i>
+            <span class="menu--label">Comptabilité et finace</span>
+          </label>
+  
+          <ul class="sub_menu">
+            <li class="sub_menu--item">
+              <a href="#"  class="sub_menu--link sub_menu--link__active">RAF ou DAF</a>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Comptable</a>
+            </li>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Secrétaire comptable</a>
+            </li>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Contrôleurs comptable</a>
+            </li>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Facturier</a>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable recouvrement</a>
+            </li>
+            <li class="sub_menu--item">
+                <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable grands comptes</a>
+            </li>
+          </ul>
+          </li>
+  </div>
+  <li class="menu--item">
+        <a href="#" class="menu--link" title="Item 2">
+          <i class="menu--icon  fa fa-fw fa"></i>
+          <span class="menu--label">Juridique</span>
+        </a>
+      </li>
+
+      <div>
+            <li class="menu--item  menu--item__has_sub_menu">
+      
+              <label class="menu--link" title="Item 1">
+                <i class="menu--icon  fa fa-fw fa"></i>
+                <span class="menu--label">Marketing</span>
+              </label>
+      
+              <ul class="sub_menu">
+                <li class="sub_menu--item">
+                  <a href="#"  class="sub_menu--link sub_menu--link__active">Directeur marketing</a>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Community Manager</a>
+                </li>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Graphistes</a>
+                </li>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Consiller(e) de vente</a>
+                </li>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Commerciale B to B</a>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Marchandiser</a>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Animateur(rice) de vente</a>
+                </li>
+              </ul>
+              </li>
+      </div>
+
+      <div>
+            <li class="menu--item  menu--item__has_sub_menu">
+      
+              <label class="menu--link" title="Item 1">
+                <i class="menu--icon  fa fa-fw fa"></i>
+                <span class="menu--label">Gastronomie</span>
+              </label>
+      
+              <ul class="sub_menu">
+                <li class="sub_menu--item">
+                  <a href="#"   class="sub_menu--link sub_menu--link__active">Chef de cuisine</a>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Commis de cuisine</a>
+                </li>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Serveur(se)</a>
+                </li>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Plongeurs</a>
+                </li>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Aide cuisine</a>
+                </li>
+              </ul>
+              </li>
+      </div>
+
+      <div>
+            <li class="menu--item  menu--item__has_sub_menu">
+      
+              <label class="menu--link" title="Item 1">
+                <i class="menu--icon  fa fa-fw fa"></i>
+                <span class="menu--label">Tourisme et hôtelerie</span>
+              </label>
+      
+              <ul class="sub_menu">
+                <li class="sub_menu--item">
+                  <a href="#"   class="sub_menu--link sub_menu--link__active">Réceptionniste d'hôtelF</a>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Femmen de ménage</a>
+                </li>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable d'accueil</a>
+                </li>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable de salle</a>
+                </li>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Guide touristique</a>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Agent ticketing</a>
+                </li>
+                <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Agent d'escale</a>
+                </li>
+              </ul>
+              </li>
+      </div>
+      <li class="menu--item">
+            <a href="#" class="menu--link" title="Item 3">
+              <i class="menu--icon  fa fa-fw fa"></i>
+              <span class="menu--label">Medecine et santé</span>
+            </a>
+          </li>
+          <li class="menu--item">
+                <a href="#" class="menu--link" title="Item 3">
+                  <i class="menu--icon  fa fa-fw fa"></i>
+                  <span class="menu--label">Esthétique et bien être</span>
+                </a>
+              </li>
+              <li class="menu--item">
+                    <a href="#" class="menu--link" title="Item 3">
+                      <i class="menu--icon  fa fa-fw fa"></i>
+                      <span class="menu--label">Informatique ou Web</span>
+                    </a>
+                  </li>
+                  <div>
+                        <li class="menu--item  menu--item__has_sub_menu">
+                  
+                          <label class="menu--link" title="Item 1">
+                            <i class="menu--icon  fa fa-fw fa"></i>
+                            <span class="menu--label">BTP</span>
+                          </label>
+                  
+                          <ul class="sub_menu">
+                            <li class="sub_menu--item">
+                              <a href="#"  class="sub_menu--link sub_menu--link__active">Ingénieur en éléctricité</a>
+                            </li>
+                            <li class="sub_menu--item">
+                                <a href="#"  class="sub_menu--link sub_menu--link__active">Chef de chantier</a>
+                            </li>
+                            </li>
+                            <li class="sub_menu--item">
+                                <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable gros oeuvres</a>
+                            </li>
+                            </li>
+                            <li class="sub_menu--item">
+                                <a href="#"  class="sub_menu--link sub_menu--link__active">Maquettiste</a>
+                            </li>
+                            </li>
+                            <li class="sub_menu--item">
+                                <a href="#"  class="sub_menu--link sub_menu--link__active">Poseurs</a>
+                            </li>
+                            <li class="sub_menu--item">
+                                <a href="#"  class="sub_menu--link sub_menu--link__active">Peintres</a>
+                            </li>
+                            <li class="sub_menu--item">
+                                <a href="#"  class="sub_menu--link sub_menu--link__active">Agent d'escale</a>
+                            </li>
+                          </ul>
+                          </li>
+                  </div>
+                  <li class="menu--item">
+                        <a href="#" class="menu--link" title="Item 3">
+                          <i class="menu--icon  fa fa-fw fa"></i>
+                          <span class="menu--label">Qualité</span>
+                        </a>
+                      </li>
+<li class="menu--item">
+                    <a href="#" class="menu--link" title="Item 3">
+                      <i class="menu--icon  fa fa-fw fa"></i>
+                      <span class="menu--label">Arts</span>
+                    </a>
+                  </li>
+<li class="menu--item">
+                    <a href="#" class="menu--link" title="Item 3">
+                      <i class="menu--icon  fa fa-fw fa"></i>
+                      <span class="menu--label">Enseignements et formations</span>
+                    </a>
+                  </li>
+                  <li class="menu--item">
+                        <a href="#" class="menu--link" title="Item 3">
+                          <i class="menu--icon  fa fa-fw fa"></i>
+                          <span class="menu--label">Mécanique</span>
+                        </a>
+                      </li>
+  <div>
+        <li class="menu--item  menu--item__has_sub_menu">
+  
+          <label class="menu--link" title="Item 1">
+            <i class="menu--icon  fa fa-fw fa"></i>
+            <span class="menu--label">Ressource humaine</span>
+          </label>
+  
+          <ul class="sub_menu">
+            <li class="sub_menu--item">
+              <a href="#"  class="sub_menu--link sub_menu--link__active">DRH</a>
+            </li>
+            <li class="sub_menu--item">
+                    <a href="#"  class="sub_menu--link sub_menu--link__active">Assistante RH</a>
+                  </li>
+                  <li class="sub_menu--item">
+                        <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable de paie</a>
+                      </li>
+                      <li class="sub_menu--item">
+                            <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable de recrutement</a>
+                          </li>
+                          <li class="sub_menu--item">
+                                <a href="#"  class="sub_menu--link sub_menu--link__active">Responsable GPEC</a>
+                              </li>
+          </ul>
+          </li>
+  </div>
+        
+
+      
+
+      <li class="menu--item">
+        <a href="#" class="menu--link" title="Item 3">
+          <i class="menu--icon  fa fa-fw fa"></i>
+          <span class="menu--label">Textile</span>
+        </a>
+      </li>
+
+    </ul>
+
+    <button id="collapse_menu" class="collapse_menu">
+      <i class="collapse_menu--icon  fa fa-fw"></i>
+      <span class="collapse_menu--label">Recôler menu</span>
+    </button>
+
+  </nav>
+
+
+  <div class="wrapper">
+
+      <section class="hero" id="hero">
+          <div class="background-image" style="background-image:url(img/back.jpg);"></div>
+          <h1>Bienvenue dans nos embauches</h1>
+          <h3>Dans nos main votre avenir !</h3>
+      </section>
+  
+      
+      
+
+  </div>
+  <section class="contact" id="contact">
+      <h3 class="title">Contactez nous</h3>
+              <hr>
+              <form>
+                  <input type="email" placeholder="Adresse email">
+                  <input type="text" placeholder="Votre Nom">
+                  <input type="text" placeholder="Votre Message">
+                  <a href="#" class="btn">Envoyé</a>
+              </form>
+  </section>
+  <script src="js/script.js"></script>
+  <script src="dist/vertical-responsive-menu.min.js"></script>
+
+</body>
+</html>

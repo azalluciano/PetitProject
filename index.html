@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vertical Responsive Menu - Demonstration</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:400,700,500"
+      rel="stylesheet"
+    />
+    <link href="src/vendor/normalize.css/normalize.css" rel="stylesheet" />
+    <link
+      href="src/vendor/fontawesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="dist/vertical-responsive-menu.min.css" rel="stylesheet" />
+    <link href="css/demo.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header clearfix">
+      <nav class="navbar">
+        <a href="index.html" class="logo"
+          ><img src="img/logo.png" alt="crm"
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li class="active"><a href="index.html">Accueil</a></li>
+            <li class=""><a href="poste.html">Nos postes</a></li>
+            <li class=""><a href="profil.html">Nos profils</a></li>
+            <li class=""><a href="embauche.html">Nos embauches</a></li>
+            <li class=""><a href="#contact">Contacts</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars fa-lg menu-hamburger" alt="menu-hamburger"></i>
+      </nav>
+    </header>
+
+    <section class="hero" id="hero">
+      <div
+        class="background-image"
+        style="background-image: url(img/back.jpg)"
+      ></div>
+      <h1>Bienvenue dans CRM</h1>
+      <h3>Dans nos main votre avenir !</h3>
+    </section>
+
+    <section class="contact" id="contact">
+      <h3 class="title">Contactez nous</h3>
+      <hr />
+      <form>
+        <input type="email" placeholder="Adresse email" />
+        <input type="text" placeholder="Votre Nom" />
+        <input type="text" placeholder="Votre Message" />
+        <a href="#" class="btn">Envoyé</a>
+      </form>
+    </section>
+    <script src="js/script.js"></script>
+    <script src="dist/vertical-responsive-menu.min.js"></script>
+  </body>
+</html>
